@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+    color:aliceblue;
+}
+
+.main{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:260px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing:border-box;
+}
+
+
+.home{
+   display: flex;
+   flex-direction: column;
+}
+
+.section{
+    display: flex;
+    gap:0px 200px;
+    justify-content:space-between;
+}
+
+
+.estilo__nome{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size:62px;
+}
+
+.estilo__nome__sub{
+    font-family: 'DM Sans', sans-serif;
+    color:#828282;
+    font-weight: 500;
+    font-size:26px;
+    margin-top: 20px;
+    
+}
+
+.botao_linkedin{
+    margin-top: 20px;
+    padding:12px 24px;
+    width:90px;
+    color:black;
+    background:linear-gradient(to right, #00D2E6,#0a93a0);
+    border-radius: 2px;
+    text-align: center;
+    user-select:none;
+    cursor: pointer;
+}
+
+.botao_linkedin:hover{
+    background: #0e828d;
+    transition: background 1s;
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+.font__1{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size:18px;
+}
+
+.cor__5{
+   color: #171717;
+}
+
+
+.font__2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size:36px;
+}
+
+.sobre{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+
+.container__sobre{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+.sobre__grid{
+    display:grid;
+    align-items:center;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+}
+
+.font__1-m{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color:#828282;
+}
+
+.img{
+    margin:auto;
+    display: block;
+}
+
+.destaque{
+    color:#f9f9f9;
+}
+
+.sklils{
+    text-align:center;
+    margin-bottom:60px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.skills_img{
+    display: flex;
+    gap:30px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills_img_paragrafo{
+    font-family: 'DM Sans', sans-serif;
+    color:#f9f9f9;
+    text-align: center;
+}
+
+.skills_img_box{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #212121;
+    border-radius: 7px;
+}
